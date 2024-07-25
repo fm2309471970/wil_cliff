@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wil-cliff"
+version = "0.1.0"
+description = "A package to perform Wilcoxon test and Cliff's Delta analysis"
+authors = ["fm2309471970 <2309471970@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = "^1.7.3"  # 请根据scipy的实际版本要求进行修改
+cliffs-delta = "^0.1.1"  # 请根据cliffs-delta的实际版本要求进行修改
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
